@@ -1,27 +1,36 @@
 {
-  "title": "Create An S3 Bucket",
-  "description": "Using the AWS CLI we are going to install a bucket in the AWS cloud.",
-  "difficulty": "Beginner",
-  "time": "5",
-  "details": {
-    "steps": [
-      {
-        "title": "Step 1",
-        "text": "step1.md"
-      }
-    ],
-    "intro": {
-      "text": "intro.md"
-    },
-    "finish": {
-      "text": "finish.md"
-    }
-  },
-  "environment": {
-    "uilayout": "terminal-iframe"
-  },
-  "backend": {
-    "imageid": "php",
-    "port": "80"
-  }
-}
+	  "title": "Create S3 Bucket",
+	  "description": "Lets create an S3 bucket for unlimited storage.",
+	  "difficulty": "Beginner",
+	  "time": "3 minutes",
+	  "details": {
+	    "steps": [
+	      {
+	        "title": " Create an S3 Bucket in the US West 2 Region using the CLI",
+	        "text": "step1.md"
+	      },
+	      {
+	        "title": "Use the Amazon S3 Console ",
+	        "text": "step2.md"
+	      },
+	      {
+	        "title": “Explore S3 Bucket details",
+	        "text": "step3.md"
+	      }
+	    ],
+	    "intro": {
+	      "text": "intro.md",
+	      "code": "foreground.sh"
+	    },
+	    "finish": {
+	      "text": "finish.md"
+	    }
+	  },
+	  "environment": {
+	    "uilayout": "terminal-iframe" 
+	  },
+	  "backend": {
+	    "imageid": "aws-tf-cli:latest"
+	  }
+	}
+
