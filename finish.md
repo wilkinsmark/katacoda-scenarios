@@ -1,0 +1,1 @@
+OK. Let’s wrap up what we accomplished together* We used the AWS CLI to create an S3 bucket in the US-West-2 region* The bucket name was unique; (Since it was created it must have been unique!)* We used the AWS Management Console to review the S3 service before and after our bucket was createdTable of Contents* Scenario A* Scenario B* Scenario CFurther LearningLink to 
