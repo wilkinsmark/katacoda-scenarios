@@ -1,0 +1,27 @@
+{
+  "title": "Create An S3 Bucket",
+  "description": "Using the AWS CLI we are going to install a bucket in the AWS cloud.",
+  "difficulty": "Beginner",
+  "time": "5",
+  "details": {
+    "steps": [
+      {
+        "title": "Step 1",
+        "text": "step1.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal-iframe"
+  },
+  "backend": {
+    "imageid": "php",
+    "port": "80"
+  }
+}
